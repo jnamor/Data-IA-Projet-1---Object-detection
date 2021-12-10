@@ -1,0 +1,135 @@
+body {
+  font-family: Helvetica, arial, sans-serif;
+  color:#6A59C3;
+  background-color:white;
+  margin:0;
+}
+
+#logo {
+  width: 15%;
+  position: relative;
+}
+
+h1 {
+  font-weight: bold;
+  font: 30px sans-serif;
+  color: black;
+}
+
+li {
+  font: 20px sans-serif;
+  /* color: #FF6F00; */
+}
+
+a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+/* Header */
+
+.main-head {
+  background:rgba(245, 245, 245);
+  height: 120px;
+  color: #ffffff;
+}
+
+nav {
+  /* min-height: 15vh; */
+  display: flex;
+  align-items:center;
+  width: 90%;
+  margin: auto;
+  padding: 1.3rem;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#logo {
+  flex: 1 1 40rem;
+}
+
+#img-background {
+  position: static;
+}
+
+video {
+  display: block;
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.header {
+  padding: 0px;
+  text-align: center;
+  background: rgba(245, 245, 245);
+  color: black;
+  font-size: 20px;
+}
+
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+#webcamButton,  #webcamButton2{
+  background-color: #9899E6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-right: 50px;
+  border-radius: 15px; 
+}
+
+.camView {
+  position: absolute;
+  top: 300px; 
+  left: 20px;
+  float: left;
+  /* width: calc(100% - 20px); */
+  margin: 0px;
+  cursor: pointer;
+}
+
+.camView p {
+  position: absolute;
+  padding: 5px;
+  background-color: rgba(255, 111, 0, 0.85);
+  color: #FFF;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  font-size: 12px;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed #fff;
+  z-index: 1;
+  position: absolute;
+}
+
+/* body {
+  color:#6A59C3;
+  background-color:#6A59C3;
+  background-image:url(Design2.png);
+  background-size: 100%;
+  margin:0;
+  } */
